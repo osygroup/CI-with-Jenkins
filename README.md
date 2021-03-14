@@ -1,4 +1,4 @@
-# Continuous Integration with Jenkins
+# Project 2: Continuous Integration with Jenkins
 
 Continuous integration (CI) is the practice of automating the
 integration of code changes from multiple contributors into a single
