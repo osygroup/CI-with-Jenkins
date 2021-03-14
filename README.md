@@ -55,7 +55,7 @@ Jenkins.
 
 ![](https://github.com/osygroup/Images/blob/main/CI-with-Jenkins/image1.png)
 
-## Pre-requisite
+## Prerequisite
 Completion of Network-attached-Storage-Demo project (Project 1)
 
 ## Step 1: Prepare the Jenkins server
