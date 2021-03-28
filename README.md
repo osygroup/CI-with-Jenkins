@@ -108,7 +108,7 @@ Import the GPG keys of the Jenkins repository using the following wget
 command:
 
 *\$ wget -q -O - https://pkg.jenkins.io/debian/jenkins.io.key \| sudo
-apt-key add --*
+apt-key add -*
 
 Add the Jenkins repository to the system with:
 
@@ -119,21 +119,21 @@ Install the latest version of Jenkins:
 
 *\$ sudo apt update*
 
-*\$ sudo apt install Jenkins*
+*\$ sudo apt install jenkins*
 
 Verify the status of the Jenkins service:
 
-*\$ sudo systemctl status Jenkins*
+*\$ sudo systemctl status jenkins*
 
 ![](https://github.com/osygroup/Images/blob/main/CI-with-Jenkins/image4.png)
 
 Enable Jenkins server to always start at boot:
 
-*\$ sudo systemctl enable Jenkins*
+*\$ sudo systemctl enable jenkins*
 
 Disable UFW
 
-*\$ sudo UFW disable*
+*\$ sudo ufw disable*
 
 ![](https://github.com/osygroup/Images/blob/main/CI-with-Jenkins/image5.png)
 
